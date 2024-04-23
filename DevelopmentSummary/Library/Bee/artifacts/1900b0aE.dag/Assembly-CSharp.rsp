@@ -351,6 +351,7 @@
 "Assets/Scripts/DesignPatterns/Observer.cs"
 "Assets/Scripts/DesignPatterns/Singleton.cs"
 "Assets/TestScripts/CallSingleton.cs"
+"Assets/TestScripts/SpawnScript.cs"
 -langversion:9.0
 
 /deterministic
