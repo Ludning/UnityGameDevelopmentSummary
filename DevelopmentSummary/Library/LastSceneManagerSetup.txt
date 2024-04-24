@@ -1,5 +1,6 @@
 sceneSetups:
-- path: Assets/Scenes/ObjectPool.unity
+- path: "Assets/Scenes/Solid\uC6D0\uCE59/\uB2E8\uC77C \uCC45\uC784 \uC6D0\uCE59 (Single
+    Responsiblity Principle).unity"
   isLoaded: 1
   isActive: 1
   isSubScene: 0
