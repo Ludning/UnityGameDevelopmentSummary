@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class SRP_Statue : MonoBehaviour
 {
+
     int hp;
     public int HP {  get; private set; }
 
@@ -15,4 +16,5 @@ public class SRP_Statue : MonoBehaviour
 
     int defence;
     public int Defence {  get; private set; }
+
 }
