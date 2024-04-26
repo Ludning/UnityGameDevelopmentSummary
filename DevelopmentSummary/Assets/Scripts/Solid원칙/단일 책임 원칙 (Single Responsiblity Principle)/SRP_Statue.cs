@@ -16,5 +16,9 @@ public class SRP_Statue : MonoBehaviour
 
     int defence;
     public int Defence {  get; private set; }
-
+    SRP_Player player;
+    private void Awake()
+    {
+        player = GetComponent<SRP_Player>();
+    }
 }
