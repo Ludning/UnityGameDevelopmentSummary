@@ -2,15 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SRP_PrintLog : MonoBehaviour
+namespace Single_Responsiblity_Principle
 {
-    SRP_Player player;
-    private void Awake()
+    public class SRP_PrintLog : MonoBehaviour
     {
-        player = GetComponent<SRP_Player>();
-    }
-    public void PrintLog(MonoBehaviour sender, string context)
-    {
-        Debug.Log($"{sender} : {context}");
+        SRP_Player player;
+        private void Awake()
+        {
+            player = GetComponent<SRP_Player>();
+        }
+        public void PrintLog(MonoBehaviour sender, string context)
+        {
+            Debug.Log($"{sender} : {context}");
+        }
     }
 }

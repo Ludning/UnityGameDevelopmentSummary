@@ -2,22 +2,24 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
-
-public class SRP_PlayerInput : MonoBehaviour
+namespace Single_Responsiblity_Principle
 {
-    float vertical;
-    float horizontal;
-    SRP_Player player;
-    private void Awake()
+    public class SRP_PlayerInput : MonoBehaviour
     {
-        player = GetComponent<SRP_Player>();
-    }
-    void Update()
-    {
-        vertical = Input.GetAxis("Vertical");
-        horizontal = Input.GetAxis("Horizontal");
+        float vertical;
+        float horizontal;
+        SRP_Player player;
+        private void Awake()
+        {
+            player = GetComponent<SRP_Player>();
+        }
+        void Update()
+        {
+            vertical = Input.GetAxis("Vertical");
+            horizontal = Input.GetAxis("Horizontal");
 
-        player.GetPlayerComponent<SRP_Movement>().SetAxis(new Vector3(horizontal, 0, vertical));
-    }
+            player.GetPlayerComponent<SRP_Movement>().SetAxis(new Vector3(horizontal, 0, vertical));
+        }
 
+    }
 }

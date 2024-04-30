@@ -1,6 +1,6 @@
 sceneSetups:
-- path: "Assets/Scenes/Solid\uC6D0\uCE59/\uAC1C\uBC29-\uD3D0\uC1C4 \uC6D0\uCE59 (Open
-    Closed Principle).unity"
+- path: "Assets/Scenes/Solid\uC6D0\uCE59/\uB9AC\uC2A4\uCF54\uD504 \uCE58\uD658 \uC6D0\uCE59
+    (Liskov Substitution Principle).unity"
   isLoaded: 1
   isActive: 1
   isSubScene: 0

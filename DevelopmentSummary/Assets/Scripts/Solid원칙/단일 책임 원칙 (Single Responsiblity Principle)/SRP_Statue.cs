@@ -2,23 +2,26 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SRP_Statue : MonoBehaviour
+namespace Single_Responsiblity_Principle
 {
-
-    int hp;
-    public int HP {  get; private set; }
-
-    int mp;
-    public int MP { get; private set; }
-
-    int attack;
-    public int Attack { get; private set; }
-
-    int defence;
-    public int Defence {  get; private set; }
-    SRP_Player player;
-    private void Awake()
+    public class SRP_Statue : MonoBehaviour
     {
-        player = GetComponent<SRP_Player>();
+
+        int hp;
+        public int HP { get; private set; }
+
+        int mp;
+        public int MP { get; private set; }
+
+        int attack;
+        public int Attack { get; private set; }
+
+        int defence;
+        public int Defence { get; private set; }
+        SRP_Player player;
+        private void Awake()
+        {
+            player = GetComponent<SRP_Player>();
+        }
     }
 }
