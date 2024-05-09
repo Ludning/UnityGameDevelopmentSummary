@@ -79,7 +79,8 @@ namespace BuilderPattern
         /// 
         public Player Build()
         {
-            return new Player(this);
+            return null;
+            //return new Player(this);
         }
     }
 

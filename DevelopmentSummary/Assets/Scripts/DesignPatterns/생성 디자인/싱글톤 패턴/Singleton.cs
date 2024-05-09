@@ -32,3 +32,12 @@ public class Singleton : MonoBehaviour
     public static DataManager Data { get { return Instance.data; } }
     */
 }
+public class Monster : MonoBehaviour
+{
+    int hp = 100;
+    public void OnDamage(int value)
+    {
+        hp -= value;
+    }
+
+}
