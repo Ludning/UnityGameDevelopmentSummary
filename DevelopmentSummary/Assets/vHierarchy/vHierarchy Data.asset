@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a9752b0c8e144801967e6897679604b, type: 3}
+  m_Name: vHierarchy Data
+  m_EditorClassIdentifier: 
+  sceneDatas_byGuid:
+    keys:
+    - b776733ff8b016c43a26f631ab4d7601
+    - 94e47c85a89b71546a84ebc452ee05f0
+    - bc72d253b32115149bc4dc240e0cba2e
+    - 599ad259a419fa64da15109b87b8c47c
+    - b675fa9cee653aa45846eebc025698f4
+    - 3b37faaaea8d9844aaf3d7cb4f76c3c1
+    values:
+    - goDatas_byGlobalId:
+        keys:
+        - globalObjectIdString: GlobalObjectId_V1-2-b776733ff8b016c43a26f631ab4d7601-642345573-0
+        values:
+        - colorIndex: 7
+          iconNameOrGuid: 
+    - goDatas_byGlobalId:
+        keys:
+        - globalObjectIdString: GlobalObjectId_V1-2-94e47c85a89b71546a84ebc452ee05f0-642345573-0
+        values:
+        - colorIndex: 7
+          iconNameOrGuid: 
+    - goDatas_byGlobalId:
+        keys:
+        - globalObjectIdString: GlobalObjectId_V1-2-bc72d253b32115149bc4dc240e0cba2e-1489373823-0
+        - globalObjectIdString: GlobalObjectId_V1-2-bc72d253b32115149bc4dc240e0cba2e-553902357-0
+        values:
+        - colorIndex: 7
+          iconNameOrGuid: 
+        - colorIndex: 6
+          iconNameOrGuid: 
+    - goDatas_byGlobalId:
+        keys:
+        - globalObjectIdString: GlobalObjectId_V1-2-599ad259a419fa64da15109b87b8c47c-1489373823-0
+        - globalObjectIdString: GlobalObjectId_V1-2-599ad259a419fa64da15109b87b8c47c-553902357-0
+        values:
+        - colorIndex: 7
+          iconNameOrGuid: 
+        - colorIndex: 6
+          iconNameOrGuid: 
+    - goDatas_byGlobalId:
+        keys:
+        - globalObjectIdString: GlobalObjectId_V1-2-b675fa9cee653aa45846eebc025698f4-1656478838-0
+        - globalObjectIdString: GlobalObjectId_V1-2-b675fa9cee653aa45846eebc025698f4-538882732-0
+        - globalObjectIdString: GlobalObjectId_V1-2-b675fa9cee653aa45846eebc025698f4-1263693245-0
+        - globalObjectIdString: GlobalObjectId_V1-2-b675fa9cee653aa45846eebc025698f4-1170760498-0
+        values:
+        - colorIndex: 6
+          iconNameOrGuid: 
+        - colorIndex: 6
+          iconNameOrGuid: 
+        - colorIndex: 6
+          iconNameOrGuid: 
+        - colorIndex: 9
+          iconNameOrGuid: 
+    - goDatas_byGlobalId:
+        keys:
+        - globalObjectIdString: GlobalObjectId_V1-2-3b37faaaea8d9844aaf3d7cb4f76c3c1-235686912-0
+        - globalObjectIdString: GlobalObjectId_V1-2-3b37faaaea8d9844aaf3d7cb4f76c3c1-974162979-0
+        - globalObjectIdString: GlobalObjectId_V1-2-3b37faaaea8d9844aaf3d7cb4f76c3c1-1705426180-0
+        - globalObjectIdString: GlobalObjectId_V1-2-3b37faaaea8d9844aaf3d7cb4f76c3c1-520545402-0
+        values:
+        - colorIndex: 7
+          iconNameOrGuid: 
+        - colorIndex: 6
+          iconNameOrGuid: 
+        - colorIndex: 2
+          iconNameOrGuid: 
+        - colorIndex: 8
+          iconNameOrGuid: 

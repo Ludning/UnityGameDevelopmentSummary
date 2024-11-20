@@ -6,18 +6,18 @@ namespace Solid.Single_Responsiblity_Principle
 {
     public class SRP_Statue : MonoBehaviour
     {
+        private int _hp;
+        public int HP => _hp;
 
-        int hp;
-        public int HP { get; private set; }
+        private int _mp;
+        public int MP => _mp;
 
-        int mp;
-        public int MP { get; private set; }
+        private int _attack;
+        public int Attack => _attack;
 
-        int attack;
-        public int Attack { get; private set; }
-
-        int defence;
-        public int Defence { get; private set; }
+        private int _defence;
+        public int Defence => _defence;
+        
         SRP_Player player;
         private void Awake()
         {

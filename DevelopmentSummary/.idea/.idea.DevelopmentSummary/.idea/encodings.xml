@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" addBOMForNewFiles="with BOM under Windows, with no BOM otherwise">
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/1.Solid원칙/4.인터페이스 분리 원칙 (Interface Segregation Principle)/2.준수 예시/ISP_GameManager.cs" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Assets/Scripts/1.Solid원칙/개방-폐쇄 원칙 (Open Closed Principle)/OPC_MovementManager.cs" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Assets/Scripts/1.Solid원칙/단일 책임 원칙 (Single Responsiblity Principle)/SRP_Player.cs" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Assets/Scripts/1.Solid원칙/리스코프 치환 원칙 (Liskov Substitution Principle)/LSP_GameManager.cs" charset="UTF-8" />
