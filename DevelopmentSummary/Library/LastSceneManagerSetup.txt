@@ -1,5 +1,7 @@
 sceneSetups:
-- path: Assets/Scenes/InputManager/InputManager.unity
+- path: "Assets/Scenes/1.Solid\uC6D0\uCE59/4.\uC778\uD130\uD398\uC774\uC2A4 \uBD84\uB9AC
+    \uC6D0\uCE59 (Interface Segregation Principle)/2.\uC900\uC218 \uC608\uC2DC/1.\uC778\uD130\uD398\uC774\uC2A4
+    \uBD84\uB9AC \uC6D0\uCE59 \uC900\uC218.unity"
   isLoaded: 1
   isActive: 1
   isSubScene: 0
