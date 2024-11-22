@@ -5,10 +5,10 @@ using UnityEngine;
 
 namespace Solid.Interface_Segregation_Principle
 {
-    public class ISP_Inventory : MonoBehaviour
+    public class NoISP_Inventory : MonoBehaviour
     {
-        private ISP_IPickable _targetItem;
-        private ISP_IPickable _ownedItem;
+        private NoISP_Item _targetItem;
+        private NoISP_Item _ownedItem;
         
         private void Update()
         {
@@ -23,6 +23,7 @@ namespace Solid.Interface_Segregation_Principle
             if (_targetItem == null) return;
             _targetItem.OnPickUp(GetTransform);
             _ownedItem = _targetItem;
+            Debug.Log("Add Item");
         }
         private void DropItem()
         {
@@ -38,15 +39,15 @@ namespace Solid.Interface_Segregation_Principle
         
         private void OnTriggerEnter(Collider other)
         {
-            if (other.GetComponent<ISP_IPickable>() == null) 
+            if (other.GetComponent<NoISP_Item>() == null) 
                 return;
-            _targetItem = other.GetComponent<ISP_IPickable>();
+            _targetItem = other.GetComponent<NoISP_Item>();
             Debug.Log("Find Item");
         }
 
         private void OnTriggerExit(Collider other)
         {
-            if (other.GetComponent<ISP_IPickable>() == null) 
+            if (other.GetComponent<NoISP_Item>() == null) 
                 return;
             _targetItem = null;
             Debug.Log("Lost Item");

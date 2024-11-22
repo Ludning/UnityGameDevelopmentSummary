@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace Solid.Interface_Segregation_Principle
 {
-    public class ISP_Item : ISP_Prop, ISP_IPickable
+    public class NoISP_Item : NoISP_Prop
     {
         /*public void OnPickUp(ISP_Inventory owner)
         {
@@ -16,9 +16,13 @@ namespace Solid.Interface_Segregation_Principle
         {
             transform.SetParent(null);
         }*/
-
+        
         public void OnPickUp(Func<Transform> func)
         {
+            /*Transform parent = func();
+            Debug.Log(parent.gameObject);
+            transform.SetParent(parent);*/
+            
             transform.SetParent(func());
         }
 

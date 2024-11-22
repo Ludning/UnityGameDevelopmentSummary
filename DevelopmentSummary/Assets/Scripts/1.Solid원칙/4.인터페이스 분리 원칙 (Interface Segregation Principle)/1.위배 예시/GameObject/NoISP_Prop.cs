@@ -4,8 +4,7 @@ using UnityEngine;
 
 namespace Solid.Interface_Segregation_Principle
 {
-    public class ISP_GameManager : MonoBehaviour
+    public class NoISP_Prop : NoISP_Object
     {
-        
     }
 }
